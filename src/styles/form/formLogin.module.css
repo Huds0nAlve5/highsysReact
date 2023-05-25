@@ -12,21 +12,22 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
     margin: 0px auto;
     text-align: center;
     padding: 20px 20px;
     box-shadow: 4px 4px 4px rgb(172, 164, 164);
     background-color: white;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 .login_form input{
     text-align: center;
     margin: 5px 0px;
-    width: 190px;
-    height: 25px;
+    width: 246px;
+    height: 35px;
     outline: 0;
 }
 
@@ -34,22 +35,24 @@ body{
 .login_form input[type="text"], input[type="password"]{
     border: 1px solid #193441;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 17px;
     transition: 0.5s;
 }
 
 .login_form input[type="text"]:focus, input[type="password"]:focus{
-    width: 250px;
-    transition: 0.5s;
+    width: 310px;
+    transition: 0.3s;
 }
+
 
 .login_form input[type="submit"]{
     border: 1px solid #193441;
     border-radius: 5px;
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     background-color: #193441;
     color: white;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: bold;
 }
