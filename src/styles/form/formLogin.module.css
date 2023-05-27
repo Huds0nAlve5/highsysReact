@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+
+* {
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     margin: 0;
 }
+
 
 #div_body{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,52,65,1) 35%, rgb(21, 152, 179) 100%);
