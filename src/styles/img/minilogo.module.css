@@ -1,0 +1,8 @@
+.mini_logo{
+    background-image: url("../../static/img/logo/logo-mini50.png");
+    width: 300px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

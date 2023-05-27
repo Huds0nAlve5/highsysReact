@@ -1,0 +1,6 @@
+#navbar{
+    margin: 0px;
+    width: 100vw;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,52,65,1) 35%, rgb(21, 152, 179) 100%);
+}
