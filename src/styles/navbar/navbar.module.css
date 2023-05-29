@@ -1,6 +1,7 @@
 #navbar{
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 0px;
     width: 100vw;
     height: 55px;
@@ -15,5 +16,6 @@
 #menu li{
     list-style: none;
     color: white;
-    margin: 0px 10px;
+    margin: 0px 15px;
+    font-size: 18px;
 }
