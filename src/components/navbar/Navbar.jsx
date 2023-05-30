@@ -9,7 +9,7 @@ export function Navbar(){
             <ul id={styles.menu}>
                 <Menu rotina="Cadastro"/>
                 <Menu rotina="Caixa"/>
-                <Menu rotina="Notas fiscais"/>
+                <Menu rotina="Fiscal"/>
             </ul>
         </nav>
     )

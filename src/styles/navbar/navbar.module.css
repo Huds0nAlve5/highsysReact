@@ -13,9 +13,49 @@
     flex-direction: row;
 }
 
-#menu li{
+.coluna_menu_submenu{
+    flex-direction: column;
+}
+
+.menu_item{
     list-style: none;
     color: white;
-    margin: 0px 15px;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 55px;
+}
+
+.menu_item:hover{
+    background-color: white;
+    color: rgba(25,52,65,1);
+    transition: 0.7s;
+}
+
+.submenu{
+    padding: 0px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+}
+
+.submenu_item{
+    list-style: none;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(2,0,36,1);
+}
+
+.submenu_item:hover{
+    background-color: white;
+    color: rgba(25,52,65,1);
+    transition: 0.7s;
 }
