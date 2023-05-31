@@ -11,7 +11,16 @@
 #menu{
     display: flex;
     flex-direction: row;
+    padding: 0px;
 }
+
+.barra_vertical{
+    border-left: 1px solid white;
+    width: 1px;
+    height: 45px;
+    margin: 0px 20px;
+}
+
 
 .coluna_menu_submenu{
     flex-direction: column;
@@ -59,4 +68,8 @@
     background-color: white;
     color: rgba(25,52,65,1);
     transition: 0.7s;
+}
+
+.link{
+    text-decoration: none;
 }
