@@ -1,4 +1,3 @@
-import { CadastroProduto } from "../../../pages/cadastro/CadastroProduto"
 import style from "../../../styles/navbar/navbar.module.css"
 import { Link } from "react-router-dom"
 

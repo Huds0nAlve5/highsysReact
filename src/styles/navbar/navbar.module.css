@@ -11,7 +11,8 @@
 #menu{
     display: flex;
     flex-direction: row;
-    padding: 0px;
+    padding: 0px;   
+    margin: 0px;
 }
 
 .barra_vertical{
@@ -36,6 +37,7 @@
     align-items: center;
     cursor: pointer;
     height: 55px;
+    transition: 0.7s;
 }
 
 .menu_item:hover{
@@ -62,6 +64,7 @@
     font-size: 20px;
     color: white;
     background-color: rgba(2,0,36,1);
+    transition: 0.7s;
 }
 
 .submenu_item:hover{
@@ -70,6 +73,32 @@
     transition: 0.7s;
 }
 
+.space_between{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    width: inherit;
+}
+
 .link{
     text-decoration: none;
+}
+
+#logout{
+    width: 100px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    float: right;
+    height: 55px;
+    transition: 0.7s;
+}
+
+#logout:hover{
+    background-color: white;
+    color: rgb(21, 152, 179);
+    transition: 0.7s;
 }

@@ -3,6 +3,7 @@ import { BackgroundMiniLogo } from "../img/BackgroundMiniLogo"
 import { Menu } from "./navbar_components/Menu"
 import {submenu_cadastro, submenu_fiscal, submenu_financeiro, submenu_relatorios} from "../../routes/routes_subrotina"
 import { BarraVertical } from "./navbar_components/BarraVertical"
+import { Logout } from "./navbar_components/Logout"
 
 export function Navbar(){
     
@@ -10,12 +11,15 @@ export function Navbar(){
         <nav id={styles.navbar}>
             <BackgroundMiniLogo />
             <BarraVertical />
-            <ul id={styles.menu}>
-                <Menu rotina="Cadastro" submenus={submenu_cadastro}/>
-                <Menu rotina="Fiscal" submenus={submenu_fiscal}/>
-                <Menu rotina="Financeiro" submenus={submenu_financeiro}/>
-                <Menu rotina="Relatórios" submenus={submenu_relatorios}/>
-            </ul>
+            <div className={styles.space_between}>
+                <ul id={styles.menu}>
+                    <Menu rotina="Cadastro" submenus={submenu_cadastro}/>
+                    <Menu rotina="Fiscal" submenus={submenu_fiscal}/>
+                    <Menu rotina="Financeiro" submenus={submenu_financeiro}/>
+                    <Menu rotina="Relatórios" submenus={submenu_relatorios}/>
+                </ul>
+                <Logout />
+            </div>
         </nav>
     )
 }
