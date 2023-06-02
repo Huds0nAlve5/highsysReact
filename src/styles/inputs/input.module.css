@@ -1,0 +1,12 @@
+.entrada{
+    text-align: center;
+    margin: 5px 0px;
+    width: 246px;
+    height: 35px;
+    outline: 0;
+    border: 1px solid #193441;
+    border-radius: 20px;
+    font-size: 17px;
+    transition: 0.5s;
+}
+    

@@ -15,7 +15,7 @@ export function LoginPage(){
                     <BackgroundLogo />
                     <Input placeholder="usuário" type="text" name="username"/>
                     <Input placeholder="senha" type="password" name="password"/>
-                    <Button type="submit" textBtn="Login"/>
+                    <Button type="submit" textBtn="Login" style={style.login_button}/>
                 </form>
             </div>
         </>

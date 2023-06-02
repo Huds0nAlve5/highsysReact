@@ -1,5 +1,5 @@
-export function Button({type, textBtn}){
+export function Button({type, textBtn, style}){
     return (
-        <input type={type} value={textBtn}/>
+        <input type={type} value={textBtn} className={style}/>
     )
 }

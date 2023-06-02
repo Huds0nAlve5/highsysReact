@@ -1,0 +1,17 @@
+.red_button{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #531616;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    transition: 0.5s;
+}
+
+.red_button:hover{
+    background-color: rgb(182, 61, 61);
+    transition: 0.5s;
+    border: none;
+}

@@ -1,7 +1,7 @@
-export function Input({type, placeholder, name}){
+export function Input({type, placeholder, name, style}){
     return(
         <>
-            <input type={type} placeholder={placeholder} name={name} />
+            <input type={type} placeholder={placeholder} name={name} className={style}/>
         </>
     )
 }

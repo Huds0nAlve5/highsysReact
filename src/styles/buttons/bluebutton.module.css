@@ -1,0 +1,17 @@
+.blue_button{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #193441;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    transition: 0.5s;
+}
+
+.blue_button:hover{
+    background-color: rgb(18, 122, 143);
+    transition: 0.5s;
+    border: none;
+}
