@@ -3,6 +3,34 @@
     margin: 20px 0px;
 }
 
+.coluna_cod{
+    border-right: 1px solid rgb(161, 161, 161);
+    width: 30px;
+    text-align: center;
+}
+
+.coluna_des{
+    width: 650px;
+}
+
+.coluna_acao{
+    width: 40px;
+}
+
 .listagem_produto{
     margin: 0px auto;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+.listagem_produto th{
+    border-bottom: 1px solid rgb(161, 161, 161);
+    text-align: left;
+    padding: 5px 10px;
+}
+
+
+.listagem_produto td{
+    border-bottom: 1px solid rgb(161, 161, 161);
+    padding: 10px 10px;
 }

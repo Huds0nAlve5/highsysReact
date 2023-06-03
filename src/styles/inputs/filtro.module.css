@@ -1,12 +1,13 @@
-.entrada{
-    text-align: center;
+.input{
+    text-indent: 30px;
     margin: 5px 0px;
-    width: 246px;
+    width: 600px;
     height: 35px;
     outline: 0;
     border: 1px solid #193441;
     border-radius: 20px;
     font-size: 17px;
     transition: 0.5s;
+    margin: 0px 10px;
 }
     
