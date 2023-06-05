@@ -1,11 +1,12 @@
 import { Input } from "../../components/form/Input";
 import { Navbar } from "../../components/navbar/Navbar";
-import { ListagemProduto } from "../../components/list/produtos/ListagemProduto"
-import style from "../../styles/list/listagemproduto.module.css"
+import { Listagem } from "../../components/list/Listagem"
+import style from "../../styles/list/listagem_cadastros.module.css"
 import blue_button from "../../styles/buttons/bluebutton.module.css"
 import filtro from "../../styles/inputs/filtro.module.css"
 import { Button } from "../../components/form/Button";
 import { useState } from "react";
+import { ModeloCadastro } from "./_modeloCadastro";
 
 export function CadastroProduto(){
     const listagem_produto = [
@@ -23,24 +24,7 @@ export function CadastroProduto(){
         },
     ]
 
-    const [prodFilter, setProdFilter] = useState("")
-    const prodFiltrados = listagem_produto.filter(produto => (
-        produto.prodes.toUpperCase().includes(prodFilter.toUpperCase())
-    ))
-
     return(
-        <>
-            <Navbar />
-            <div className={style.inserir_e_filtrar}>
-                <Input type="Produto" placeholder="Buscar produto" name="produto" style={filtro.input} setProdFilter={setProdFilter}/>
-                <Button type="button" textBtn="Novo produto" style={blue_button.blue_button}/>
-            </div>
-
-            {prodFilter.length == 0? 
-            (<ListagemProduto listagem_produto={listagem_produto} style={style}/>) : 
-            <ListagemProduto listagem_produto={prodFiltrados} style={style}/>
-            }
-            
-        </>
+        <ModeloCadastro rotina="produto" listagem={listagem_produto}/>
     )
 }

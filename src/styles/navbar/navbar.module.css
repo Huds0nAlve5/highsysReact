@@ -40,6 +40,10 @@
     transition: 0.7s;
 }
 
+.menu_item:focus{
+    background-color: red;
+}
+
 .menu_item:hover{
     background-color: white;
     color: rgba(25,52,65,1);
